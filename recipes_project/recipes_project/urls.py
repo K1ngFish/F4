@@ -7,12 +7,12 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title="My API",
+        title="My API!",
         default_version='v1',
         description="My API description",
         terms_of_service="",
-        contact=openapi.Contact(email="contact@yourapp.com"),
-        license=openapi.License(name="Your License"),
+        contact=openapi.Contact(email="me@yourapp.com"),
+        license=openapi.License(name="My License"),
     ),
     public=True,
     permission_classes=(permissions.AllowAny,),
